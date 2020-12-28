@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to chat app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- by including this script when can connect our website to the web socket servers -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="Javascript/client.js"></script>
+</head>
+
+<body>
+    <img src="Images/logo.webp" alt="logo" class="img">
+    <h2>Welcome to our Chat App</h2>
+</body>
+<div class="container"></div>
+<form action="#" id="input-message">
+    <input type="text" name="text" id="text">
+    <button type="submit">Send</button>
+</form>
+
+</html>
